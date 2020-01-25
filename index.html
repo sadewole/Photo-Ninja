@@ -49,6 +49,12 @@
                     <li><a href="#">Photo's</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4"
+                            data-tooltip='Instagram'><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip='Facebook'><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip='Twitter'><i
+                                class="fab fa-twitter"></i></a></li>
                 </ul>
                 <ul class="sidenav grey lighten-2" id="mobile-menu">
                     <li><a href="#">Photo's</a></li>
@@ -186,7 +192,7 @@
                         </p>
                     </div>
                     <div class="input-field center-align">
-                        <button class="btn">Submit</button>
+                        <button type="button" class="btn waves-effect waves-darken">Submit</button>
                     </div>
                 </form>
             </div>
@@ -234,7 +240,7 @@
             $('.datepicker').datepicker({
                 disableWeekends: true
             })
-
+            $('.tooltipped').tooltip()
         });
     </script>
 </body>
